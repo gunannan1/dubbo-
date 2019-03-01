@@ -2,7 +2,11 @@ package com.stylefeng.guns.api.user.vo;
 
 import java.io.Serializable;
 
+
 public class UserModel implements Serializable {
+
+
+    private static final long serialVersionUID = 4695706051272785548L;
 
     private String username;
     private String password;

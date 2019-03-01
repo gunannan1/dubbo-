@@ -3,7 +3,14 @@ package com.stylefeng.guns.api.user.vo;
 import java.io.Serializable;
 import java.sql.Date;
 
+/**
+ * 传输一些用户的个人信息
+ */
 public class UserInfoModel implements Serializable{
+
+
+    private static final long serialVersionUID = -4669654083290332758L;
+
     private Integer uuid;
     private String username;
     private String nickname;
