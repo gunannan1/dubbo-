@@ -16,8 +16,7 @@
         <module>guns-gateway</module>
         <module>guns-api</module>
         <module>guns-user</module>
-
-
+        <module>guns-film</module>
 
     </modules>
 
@@ -175,6 +174,12 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.4</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
